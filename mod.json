@@ -1,8 +1,8 @@
 {
   "Groups": [
     {
-      "Name": "Main",
-      "DisplayName": "Main",
+      "Name": "General",
+      "DisplayName": "General",
       "Elements": [
         {
           "Name": "IncludeDir1",
