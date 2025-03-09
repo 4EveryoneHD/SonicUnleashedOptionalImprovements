@@ -1,5 +1,5 @@
 ## Optional Improvements V2.0.3
-- Fixed issue with mod.ini
+- Fixed an issue with mod.ini
 
 ## Optional Improvements V2.0.2
 - Fixed 99 lives activating even when turned off in HMM
