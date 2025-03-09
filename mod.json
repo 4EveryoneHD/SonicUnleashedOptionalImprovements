@@ -52,6 +52,7 @@
           "DefaultValue": ".\\Config\\Lives\\"
         }
 
+
       ]
     },
 
@@ -70,7 +71,7 @@
           "MinValue": null,
           "MaxValue": null,
           "DefaultValue": ".\\Config\\KillerBee\\"
-        },     
+        }     
 
         
       ]
@@ -93,147 +94,203 @@
           "MinValue": null,
           "MaxValue": null,
           "DefaultValue": ".\\Config\\Hotdog\\"
+        },
+
+        {
+          "Name": "IncludeDir7",
+          "DisplayName": "(WIP) Draw Distance",
+          "Description": [
+            "Change Draw Distance options",
+            "- Currently only works in the Main Day Stages and Eggmanland",
+            "",
+            "WARNING: This feature is a Work In Progress and will not affect objects such as rings and enemies"
+          ],
+          "Type": "DrawDistCon",
+          "MinValue": null,
+          "MaxValue": null,
+          "DefaultValue": ".\\Config\\Off\\"
         }
       ]
     }
 
   ],
 
-   "Enums":{
-      "ExpCon":[
-         {
-            "DisplayName":"Both",
-            "Value":".\\Config\\EXP\\Both\\",
-            "Description":[
-               "Increase EXP dropped by enemies and range that EXP is collected",
-            ]
-         },
-		 {
-            "DisplayName":"Extra EXP",
-            "Value":".\\Config\\EXP\\Extra\\",
-            "Description":[
-              "Increase EXP dropped by enemies",
-            ]
-         },
-                 {
-            "DisplayName":"Increase EXP Range",
-            "Value":".\\Config\\EXP\\Range\\",
-            "Description":[
-              "Increase range that EXP is collected",
-            ]
-         },
-                 {
-            "DisplayName":"Off",
-            "Value":".\\Config\\Off\\",
-            "Description":[
-              "Turns EXP options off",
-            ]
-         },
-      ],
+  "Enums": {
+    "ExpCon": [
+      {
+        "DisplayName": "Both",
+        "Value": ".\\Config\\EXP\\Both\\",
+        "Description": [
+          "Increase EXP dropped by enemies and range that EXP is collected"
+        ]
+      },
+      {
+        "DisplayName": "Extra EXP",
+        "Value": ".\\Config\\EXP\\Extra\\",
+        "Description": [
+          "Increase EXP dropped by enemies"
+        ]
+      },
+      {
+        "DisplayName": "Increase EXP Range",
+        "Value": ".\\Config\\EXP\\Range\\",
+        "Description": [
+          "Increase range that EXP is collected"
+        ]
+      },
+      {
+        "DisplayName": "Off",
+        "Value": ".\\Config\\Off\\",
+        "Description": [
+          "Turns EXP options off"
+        ]
+      }
+    ],
 
-      "StatusCon":[
-         {
-            "DisplayName":"On",
-            "Value":".\\Config\\Status\\",
-            "Description":[
-               "",
-            ]
-         },
-		 {
-            "DisplayName":"Off",
-            "Value":".\\Config\\Off\\",
-            "Description":[
-              "",
-            ]
-         },
-		 
-      ],
+    "StatusCon": [
+      {
+        "DisplayName": "On",
+        "Value": ".\\Config\\Status\\",
+        "Description": [
+          ""
+        ]
+      },
+      {
+        "DisplayName": "Off",
+        "Value": ".\\Config\\Off\\",
+        "Description": [
+          ""
+        ]
+      }
 
-      "MedalsCon":[
-                 {
-            "DisplayName":"Both",
-            "Value":".\\Config\\Medals\\Both\\",
-            "Description":[
-               "Lowers medal requirements for Jungle Joyride Day and Arid Sands Night",
-            ]
-         },
-                 {
-            "DisplayName":"JJ Day",
-            "Value":".\\Config\\Medals\\JJDay\\",
-            "Description":[
-               "Lowers Sun Medal requirements from 120 to 80 (Adabat Day Act 1).",
-            ]
-         },
-                 {
-            "DisplayName":"AS Night",
-            "Value":".\\Config\\Medals\\ASNight\\",
-            "Description":[
-              "Lowers Moon Medal requirement from 80 to 60 (Shamar Night Act 1)",
-            ]
-         },
-		 {
-            "DisplayName":"Off",
-            "Value":".\\Config\\Off\\",
-            "Description":[
-              "",
-            ]
-         },
-		 
-      ],
+    ],
 
-      "HotdogCon":[
-                 {
-            "DisplayName":"On",
-            "Value":".\\Config\\Hotdog\\",
-            "Description":[
-               "",
-            ]
-         },
-		 {
-            "DisplayName":"Off",
-            "Value":".\\Config\\Off\\",
-            "Description":[
-              "",
-            ]
-         },
-		 
-      ],
+    "MedalsCon": [
+      {
+        "DisplayName": "Both",
+        "Value": ".\\Config\\Medals\\Both\\",
+        "Description": [
+          "Lowers medal requirements for Jungle Joyride Day and Arid Sands Night"
+        ]
+      },
+      {
+        "DisplayName": "JJ Day",
+        "Value": ".\\Config\\Medals\\JJDay\\",
+        "Description": [
+          "Lowers Sun Medal requirements from 120 to 80 (Adabat Day Act 1)."
+        ]
+      },
+      {
+        "DisplayName": "AS Night",
+        "Value": ".\\Config\\Medals\\ASNight\\",
+        "Description": [
+          "Lowers Moon Medal requirement from 80 to 60 (Shamar Night Act 1)"
+        ]
+      },
+      {
+        "DisplayName": "Off",
+        "Value": ".\\Config\\Off\\",
+        "Description": [
+          ""
+        ]
+      }
 
-      "LivesCon":[
-                 {
-            "DisplayName":"On",
-            "Value":".\\Config\\Lives\\",
-            "Description":[
-               "",
-            ]
-         },
-		 {
-            "DisplayName":"Off",
-            "Value":".\\Config\\Off\\",
-            "Description":[
-              "",
-            ]
-         },
-		 
-      ],
+    ],
 
-       "KillerBeeCon":[
-                 {
-            "DisplayName":"On",
-            "Value":".\\Config\\KillerBee\\",
-            "Description":[
-               "",
-            ]
-         },
-		 {
-            "DisplayName":"Off",
-            "Value":".\\Config\\Off\\",
-            "Description":[
-              "",
-            ]
-         },
-		 
-      ],
-   },
+    "HotdogCon": [
+      {
+        "DisplayName": "On",
+        "Value": ".\\Config\\Hotdog\\",
+        "Description": [
+          ""
+        ]
+      },
+      {
+        "DisplayName": "Off",
+        "Value": ".\\Config\\Off\\",
+        "Description": [
+          ""
+        ]
+      }
+
+    ],
+
+    "LivesCon": [
+      {
+        "DisplayName": "On",
+        "Value": ".\\Config\\Lives\\",
+        "Description": [
+          ""
+        ]
+      },
+      {
+        "DisplayName": "Off",
+        "Value": ".\\Config\\Off\\",
+        "Description": [
+          ""
+        ]
+      }
+
+    ],
+
+    "KillerBeeCon": [
+      {
+        "DisplayName": "On",
+        "Value": ".\\Config\\KillerBee\\",
+        "Description": [
+          ""
+        ]
+      },
+      {
+        "DisplayName": "Off",
+        "Value": ".\\Config\\Off\\",
+        "Description": [
+          ""
+        ]
+      }
+
+    ],
+
+    "DrawDistCon": [
+
+      {
+        "DisplayName": "x2",
+        "Value": ".\\Config\\DrawDist\\x2\\",
+        "Description": [
+          "Increase draw distance to x2"
+        ]
+      },
+
+      {
+        "DisplayName": "x1.5",
+        "Value": ".\\Config\\DrawDist\\x1.5\\",
+        "Description": [
+          "Increase draw distance to x1.5"
+        ]
+      },
+      {
+        "DisplayName": "Off",
+        "Value": ".\\Config\\Off\\",
+        "Description": [
+          ""
+        ]
+      },
+      {
+        "DisplayName": "x0.5",
+        "Value": ".\\Config\\DrawDist\\x0.50\\",
+        "Description": [
+          "Decrease draw distance to x0.5"
+        ]
+      },
+      {
+        "DisplayName": "x0.25",
+        "Value": ".\\Config\\DrawDist\\x0.25\\",
+        "Description": [
+          "Decrease draw distance to x0.25"
+        ]
+      }
+    ]
+
+  },
    "IniFile":"mod.ini"
 }
