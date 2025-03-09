@@ -1,7 +1,7 @@
 {
   "Groups": [
     {
-      "Name": "General",
+      "Name": "Main",
       "DisplayName": "General",
       "Elements": [
         {
@@ -57,7 +57,7 @@
     },
 
     {
-      "Name": "Enemies",
+      "Name": "Main",
       "DisplayName": "Enemies",
       "Elements": [
 
@@ -78,7 +78,7 @@
     },
 
     {
-      "Name": "Unfinished_Beta",
+      "Name": "Main",
       "DisplayName": "Unfinished (Beta)",
       "Elements": [
 
