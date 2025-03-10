@@ -44,7 +44,7 @@
           "Name": "IncludeDir5",
           "DisplayName": "(Almost) Infinite Lives",
           "Description": [
-            "Lives are set to 99 upon opening the game + starting and exiting levels"
+            "Lives are set to 99 upon completing/exiting levels"
           ],
           "Type": "LivesCon",
           "MinValue": null,
